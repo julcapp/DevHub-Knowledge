@@ -53,15 +53,17 @@
 | REQ-0403 | Internet Search Assistant | Planned | Beta |
 | REQ-0404 | Журнал действий ИИ | Planned | Beta |
 
-## EPIC-005 — Users and Security
+## EPIC-005 — Users, Identity and Security
 
 | ID | Наименование | Статус | Целевая поставка |
 |---|---|---|---|
 | REQ-0501 | Участники проекта | Approved | Beta |
-| REQ-0502 | Авторизация | Approved | Beta |
-| REQ-0503 | Восстановление доступа | Approved | Beta |
-| REQ-0504 | Журнал безопасности | Approved | Beta |
-| REQ-0505 | Роли и права | Approved | Beta/Enterprise |
+| REQ-0502 | Авторизация через Lk_uni | Approved | EDP-0014 |
+| REQ-0503 | Восстановление доступа через Lk_uni | Approved | EDP-0017 |
+| REQ-0504 | Журнал безопасности | Approved | EDP-0016 |
+| REQ-0505 | Роли и права | Approved | EDP-0015 |
+| REQ-0506 | Единый пользователь с несколькими identities | Approved | EDP-0013 |
+| REQ-0507 | Project-aware настройки авторизации | Approved | EDP-0014 |
 
 ## EPIC-006 — Engineering Memory
 
@@ -88,3 +90,13 @@
 | REQ-0802 | Несколько организаций | Deferred | 2.x |
 | REQ-0803 | Корпоративная инженерная память | Planned | Enterprise |
 | REQ-0804 | ISO/QMS Center | Planned | Enterprise |
+
+## EPIC-009 — Lk_uni Integration
+
+| ID | Наименование | Статус | Целевая поставка |
+|---|---|---|---|
+| EDP-0013 | Auth Foundation: локальная модель участника и сессии | Approved | Beta Foundation |
+| EDP-0014 | Lk_uni Connector: REST-клиент и настройки подключения | Approved | Beta Foundation |
+| EDP-0015 | Roles and Permissions: роли и базовые права | Approved | Beta |
+| EDP-0016 | Event Log: журнал входов и действий | Approved | Beta |
+| EDP-0017 | Account Recovery UI: восстановление доступа | Approved | Beta |
